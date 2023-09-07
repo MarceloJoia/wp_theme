@@ -20,7 +20,10 @@ function fancy_lab_scripts()
      * @var bool $ver Recebe a versão do arquivo, Esse agumento  recebe um FALSE
      * @var mixed $media Recebe o type de media pode ser: [ 'print' ou 'all' ou 'screen'...]
      */
-    wp_enqueue_style('fancy_lab_style', get_stylesheet_uri(), array(), '1.0', 'all');
+    // wp_enqueue_style('fancy_lab_style', get_stylesheet_uri(), array(), '1.0', 'all'); //<= USER esse em produção
+
+    ///////// REMOVER ISSO EM PRODUÇÃO ///////////////
+    wp_enqueue_style('fancy_lab_style', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all'); //<= USER SOMENTE EM DESENVOLVIMENTO
 }
 
 /** 
