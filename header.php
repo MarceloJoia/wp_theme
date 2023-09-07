@@ -8,7 +8,6 @@
  *
  * @package Fancy Labs
  */?>
- 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
