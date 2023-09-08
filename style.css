@@ -41,6 +41,7 @@ Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, the
 # WordPress Core
 # Media Queries
 --------------------------------------------------------------*/
+@charset "utf-8";
 
 body{
     font-family: 'Rajdhani', sans-serif;
