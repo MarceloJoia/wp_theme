@@ -41,3 +41,18 @@ function fancy_lab_scripts()
  * $callback Recebe fancy_lab_scripts()
  */
 add_action('wp_enqueue_scripts', 'fancy_lab_scripts');
+
+
+
+function fancy_lab_config()
+{
+    register_nav_menus(
+        array(
+            'fancy_lab_main_menu' => 'Fancy Lab Main Menu', 
+            'fancy_lab_main_menu_footer' => 'Fancy Lab Main Menu Footer '
+            )
+    );
+}
+// Disppara a function fancy_lab_config()
+// Zero é a prioridade da execução da function
+add_action('after_setup_theme', 'fancy_lab_config', 0);
