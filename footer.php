@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -10,12 +11,12 @@
  */
 
 ?>
-        <footer>
-            <div class="footer-widgets"></div>
-            <div class="copyright">Copyright</div>
-        </footer>
-    </div>
-    
+<footer>
+    <div class="footer-widgets"></div>
+    <div class="copyright">Copyright</div>
+</footer>
+</div>
+<?php wp_footer(); ?>
 </body>
 
 </html>

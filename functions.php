@@ -10,6 +10,10 @@
 
 function fancy_lab_scripts()
 {
+    /** Carregar o bootstrap  */
+    wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/inc/bootstrap.min.js', array('jquery'), '5.3.x', true);
+    wp_enqueue_style('bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '/style.css', 'all');
+
     /**
      * Estilo de enfileiramento [style.css] é carregado aqui.
      * Essa função precisa ser relacionada a um tipo de ação para associar a um Gancho
