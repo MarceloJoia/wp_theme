@@ -43,7 +43,7 @@
                         </div>
                         <div class="second-column col-9">
                             <div class="acount">Conta</div>
-                            <nav class="main-menu">Menu</nav>
+                            <nav class="main-menu"><?php wp_nav_menu(array('fancy_lab_main_menu')); ?></nav>
                         </div>
                     </div>
                 </div>
