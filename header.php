@@ -25,14 +25,29 @@
 
     <div id="page" class="site">
         <header>
-            <section class="search">Pesquisa</section>
-            <section class="top-bar">
-                <div class="brand"> Logo</div>
 
-                <div id="second-column">
-                    <div class="acount">Conta</div>
-                    <nave class="main-menu">Menu</nave>
+            <!-- Search Inicio -->
+            <section class="search">
+                <div class="container">
+                    Pesquisa
+                </div>
+            </section>
+            <!-- Search FIM -->
+
+            <section class="top-bar">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="brand col-3">
+                            Logo
+                        </div>
+                        <div class="second-column col-9">
+                            <div class="acount">Conta</div>
+                            <nav class="main-menu">Menu</nav>
+                        </div>
+                    </div>
                 </div>
 
             </section>
+
         </header>

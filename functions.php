@@ -28,8 +28,7 @@ function fancy_lab_scripts()
     // wp_enqueue_style('fancy_lab_style', get_stylesheet_uri(), array('style_reset'), '1.0', 'all'); //<= USER esse em produção
 
     ///////// REMOVER ISSO EM PRODUÇÃO ///////////////
-    wp_register_style('style_reset', get_template_directory_uri() . '/style_reset.css');
-    wp_enqueue_style('fancy_lab_style', get_stylesheet_uri(), array('style_reset'), filemtime(get_template_directory() . '/style.css'), 'all');
+    wp_enqueue_style('fancy_lab_style', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all');
 
     // wp_enqueue_style('fancy_lab_style', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all'); //<= USER SOMENTE EM DESENVOLVIMENTO
 }
